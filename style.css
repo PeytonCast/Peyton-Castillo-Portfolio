@@ -1,0 +1,73 @@
+/*header*/
+header {
+    text-align:center;
+    color: #fff;
+    display: flex;
+    background-color: rgb(1, 148, 148);  
+}
+
+/* profile name*/
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 1%;
+    font-size: 35px;
+}
+
+/* profile photo*/
+#myself {
+margin: 2px;
+border-radius: 100%;
+margin-bottom: auto ;
+margin-right: auto;
+float:right;
+border-color: rgb(1, 148, 148);
+border-style:outset;
+border-width: 10px;
+}
+
+/*navagation bar*/
+nav{font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    float: right;
+    color: #fff;
+    display: flex;
+        background-color: rgb(1, 148, 148);}
+nav a { padding: 14px 17px;
+        display: flex;
+        text-decoration: none;
+        color: #fff;}
+
+
+/*body styling*/
+body {
+    background-color: rgb(242, 240, 240);
+}
+h2{
+margin-left: 8px;
+color: rgba(23, 14, 14, 0.967);
+font-weight: 600;
+font-style:bold;
+font-family: Arial, Helvetica, sans-serif;font-size: x-large;
+}
+
+p {
+font-size: 18px;
+word-spacing: 4px;
+line-height: normal;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 15px;
+margin-bottom:15px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgba(23, 14, 14, 0.967);
+text-shadow: 10px;
+text-align: left;}
+
+.work { border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    float: left;
+    width: 25%;
+    
+}
+@media (max-width:992px) {.work {width: 50%;}}
