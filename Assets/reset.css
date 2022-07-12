@@ -1,0 +1,27 @@
+/* Gives the body element a parent height to compare against */
+html {height: 100%;}
+
+/* Resets the box size of every element */
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    min-height: 100%;
+    line-height: 1;
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+/* Matches the font of special elements to the rest of the page */
+input, select, option, optgroup, textarea, button,
+pre, code {font-family: inherit; font-size: 100%;}
+
+/* Removes default bullet points from lists */
+ol, ul, nav {
+    list-style: none;
+  }
+/* based off of boot camp class content*/  
