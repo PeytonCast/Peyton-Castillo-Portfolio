@@ -82,6 +82,7 @@ text-align: left;}
 /*defines anchor tag styling*/
 
 .work a { 
+    text-size-adjust: 40px;
     text-decoration: none;
     color:var(--whit);}
 
@@ -89,18 +90,21 @@ a {color:var(--whit);
     text-decoration: none;}
 
 .work-hero a { 
-   font-size: 20px;
+    font-size: xx-large;
     text-decoration: none;
     color:var(--whit);}
 
 
 /*difines work box & img styling */
-.work { width: 21%;
+.work {
+    
+     width: 21%;
     margin: 2%;
     padding: 20px;
  }
 
-.work header {padding: 20px;
+.work header {
+    padding: 20px;
     border-radius: 20px 20px 0px 0px ;
   }
 
@@ -138,6 +142,7 @@ width:100%;
 height: 350px;}
 
 /*hover affect*/
+
 .contact a:hover {border-style:double;
     border-width: 10px;
     border-color:var(--lightblue);
@@ -156,6 +161,14 @@ nav a:hover {
     border-color:var(--lightblue);
     border-radius: 40px;
     }
+.work a:hover{
+    border-bottom: 2px solid #fff;
+    transition-delay: 20ms;
+}
+.work-hero a:hover{
+    border-bottom: 2px solid #fff;
+    transition-delay: 20ms;
+}
 .work:hover {
     border-style: double;
     border-width: 10px;
@@ -218,5 +231,6 @@ nav a:hover {
 
 }}
 @media (max-width:900px) { .work {width: 46%;}}
+
 
     
